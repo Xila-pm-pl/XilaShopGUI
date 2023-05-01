@@ -1,0 +1,106 @@
+---
+# Setting ShopGUI Color Shop
+#####################################
+# TITLE CHEST SHOP
+Title: "§lColor Blocks Shop"
+# IMAGE FORMS
+# Leave it blank (example: ""), if you don't want to use Image
+Image: "textures/blocks/wool_colored_pink"
+# This is the type of chest that will be used for the chest shop later
+# There are 2 types that can be used, namely: "single" and "double"
+TypeShop: "single"
+
+# For example if you want to add a page!
+# Shops:
+#   (page) list
+#     (slot) "id:meta--price--amount--costum name--lore"
+#   
+#   - list:
+#        !(You can one select type data exemple in below)!
+#     - "id:meta--price--amount--costum name--lore"
+#     - "1--1000--32--Good Stone--Buy {amount} = Price {price} Blablabla"
+#     - "1:1--1000--32--Good Andesite--Buy {amount} = Price {price} Blablabla"
+#     - "diamond_sword--5000--1--Good Sword--Buy {amount} = Price {price} Blablabla"
+#
+# {amount}  = Number of items to be purchased
+# {price}  = Price of items to be purchased
+Shops:
+  - list:
+    - "35:0--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:1--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:2--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:3--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:4--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:5--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:6--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:7--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:8--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:9--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:10--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:11--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:12--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:13--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:14--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "35:15--3000--32--Default--§l§bBUY {amount}: {price}"
+  - list:
+    - "236:0--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "236:1--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:2--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:3--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:4--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:5--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:6--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:7--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:8--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:9--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:10--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:11--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:12--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:13--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:14--3750--32--Default--§l§bBUY {amount}: {price}"
+    - "236:15--3250--32--Default--§l§bBUY {amount}: {price}"
+  - list:
+    - "159:0--4000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:1--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:2--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:3--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:4--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:5--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:6--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:7--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:8--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:9--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:10--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:11--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:12--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:13--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:14--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "159:15--4500--32--Default--§l§bBUY {amount}: {price}"
+  - list:
+    - "219--4200--32--Default--§l§bBUY {amount}: {price}"
+    - "220--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "221--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "222--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "223--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "224--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "225--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "226--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "227--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "228--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "229--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "231--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "232--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "233--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "234--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "235--5000--32--Default--§l§bBUY {amount}: {price}"
+#####################################
+
+#  XXXXX     XXXXX  XXXXXXX  XXXXX    XXX  XXXXXXXXXXb    XXXXXXXXb  XXXXXXXXXXb   XXX     XXX  oXXXXXXXXXXXb  XXX      XXX
+#  XXXXXX   XXXXXX  XXXXXXX  XXXXXX   XXX  XXXXXXXXXXX   XXXXXXXXXX  XXXXXXXXXXXX  XXX     XXX  XXXXXXXXXXXXX  XXX      XXX
+#  XXX XXX XXX XXX    XXX    XXX XXX  XXX  XXX          XXXP         XXX      XXX  XXX     XXX  XXX            XXX      XXX
+#  XXX  XXXXX  XXX    XXX    XXX  XXX XXX  XXXXXXXD     XXX          XXXXXXXXXXP   XXX     XXX  XXXXXXXXXXXXb  XXXXXXXXXXXX
+#  XXX   XXX   XXX    XXX    XXX   XXXXXX  XXX          XXXb         XXXXXXXXXX    XXX     XXX            XXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX    XXXXX  XXXXXXXXXXX   XXXXXXXXXX  XXX    YXXX   YXXXXXXXXXY  XXXXXXXXXXXXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX     YXXP  XXXXXXXXXXP    XXXXXXXXP  XXX     XXXX   XXXXXXXXP   YXXXXXXXXXXXP  XXX      XXX
+
+...

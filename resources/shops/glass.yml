@@ -1,0 +1,72 @@
+---
+# Setting ShopGUI Glass Shop
+#####################################
+# TITLE CHEST SHOP
+Title: "§lGlass Shop"
+# IMAGE FORMS
+# Leave it blank (example: ""), if you don't want to use Image
+Image: "textures/blocks/glass_lime"
+# This is the type of chest that will be used for the chest shop later
+# There are 2 types that can be used, namely: "single" and "double"
+TypeShop: "single"
+
+# For example if you want to add a page!
+# Shops:
+#   (page) list
+#     (slot) "id:meta--price--amount--costum name--lore"
+#   
+#   - list:
+#        !(You can one select type data exemple in below)!
+#     - "id:meta--price--amount--costum name--lore"
+#     - "1--1000--32--Good Stone--Buy {amount} = Price {price} Blablabla"
+#     - "1:1--1000--32--Good Andesite--Buy {amount} = Price {price} Blablabla"
+#     - "diamond_sword--5000--1--Good Sword--Buy {amount} = Price {price} Blablabla"
+#
+# {amount}  = Number of items to be purchased
+# {price}  = Price of items to be purchased
+Shops:
+  - list:
+    - "241:0--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "241:1--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:2--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:3--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:4--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:5--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:6--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:7--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:8--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:9--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:10--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:11--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:12--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:13--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:14--3550--32--Default--§l§bBUY {amount}: {price}"
+    - "241:15--3550--32--Default--§l§bBUY {amount}: {price}"
+  - list:
+    - "160:0--1500--32--Default--§l§bBUY {amount}: {price}"
+    - "160:1--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:2--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:3--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:4--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:5--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:6--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:7--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:8--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:9--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:10--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:11--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:12--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:13--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:14--2000--32--Default--§l§bBUY {amount}: {price}"
+    - "160:15--2000--32--Default--§l§bBUY {amount}: {price}"
+#####################################
+
+#  XXXXX     XXXXX  XXXXXXX  XXXXX    XXX  XXXXXXXXXXb    XXXXXXXXb  XXXXXXXXXXb   XXX     XXX  oXXXXXXXXXXXb  XXX      XXX
+#  XXXXXX   XXXXXX  XXXXXXX  XXXXXX   XXX  XXXXXXXXXXX   XXXXXXXXXX  XXXXXXXXXXXX  XXX     XXX  XXXXXXXXXXXXX  XXX      XXX
+#  XXX XXX XXX XXX    XXX    XXX XXX  XXX  XXX          XXXP         XXX      XXX  XXX     XXX  XXX            XXX      XXX
+#  XXX  XXXXX  XXX    XXX    XXX  XXX XXX  XXXXXXXD     XXX          XXXXXXXXXXP   XXX     XXX  XXXXXXXXXXXXb  XXXXXXXXXXXX
+#  XXX   XXX   XXX    XXX    XXX   XXXXXX  XXX          XXXb         XXXXXXXXXX    XXX     XXX            XXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX    XXXXX  XXXXXXXXXXX   XXXXXXXXXX  XXX    YXXX   YXXXXXXXXXY  XXXXXXXXXXXXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX     YXXP  XXXXXXXXXXP    XXXXXXXXP  XXX     XXXX   XXXXXXXXP   YXXXXXXXXXXXP  XXX      XXX
+
+...

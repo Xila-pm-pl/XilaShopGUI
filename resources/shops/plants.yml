@@ -1,0 +1,64 @@
+---
+# Setting ShopGUI Flower Shop
+#####################################
+# TITLE CHEST SHOP
+Title: "§lPlants Shop"
+# IMAGE FORMS
+# Leave it blank (example: ""), if you don't want to use Image
+Image: "textures/blocks/sapling_birch"
+# This is the type of chest that will be used for the chest shop later
+# There are 2 types that can be used, namely: "single" and "double"
+TypeShop: "double"
+
+# For example if you want to add a page!
+# Shops:
+#   (page) list
+#     (slot) "id:meta--price--amount--costum name--lore"
+#   
+#   - list:
+#        !(You can one select type data exemple in below)!
+#     - "id:meta--price--amount--costum name--lore"
+#     - "1--1000--32--Good Stone--Buy {amount} = Price {price} Blablabla"
+#     - "1:1--1000--32--Good Andesite--Buy {amount} = Price {price} Blablabla"
+#     - "diamond_sword--5000--1--Good Sword--Buy {amount} = Price {price} Blablabla"
+#
+# {amount}  = Number of items to be purchased
+# {price}  = Price of items to be purchased
+Shops:
+  - list:
+    - "6--1750--16--Default--§l§bBUY {amount}: {price}"
+    - "6:1--1750--16--Default--§l§bBUY {amount}: {price}"
+    - "6:2--1750--16--Default--§l§bBUY {amount}: {price}"
+    - "6:3--1750--16--Default--§l§bBUY {amount}: {price}"
+    - "81--5000--16--Default--§l§bBUY {amount}: {price}"
+    - "37--1500--16--Default--§l§bBUY {amount}: {price}"
+    - "38--1500--16--Default--§l§bBUY {amount}: {price}"
+    - "38:1--2500--16--Default--§l§bBUY {amount}: {price}"
+    - "38:2--2000--16--Default--§l§bBUY {amount}: {price}"
+    - "38:3--1500--16--Default--§l§bBUY {amount}: {price}"
+    - "38:4--1500--16--Default--§l§bBUY {amount}: {price}"
+    - "38:5--1500--16--Default--§l§bBUY {amount}: {price}"
+    - "38:6--1500--16--Default--§l§bBUY {amount}: {price}"
+    - "38:7--1500--16--Default--§l§bBUY {amount}: {price}"
+    - "175:1--1200--16--Default--§l§bBUY {amount}: {price}"
+    - "175:4--1200--16--Default--§l§bBUY {amount}: {price}"
+    - "175:5--1200--16--Default--§l§bBUY {amount}: {price}"
+    - "31:2--1000--16--Default--§l§bBUY {amount}: {price}"
+    - "175:3--2500--16--Default--§l§bBUY {amount}: {price}"
+    - "175:2--3000--16--Default--§l§bBUY {amount}: {price}"
+    - "111--4000--16--Default--§l§bBUY {amount}: {price}"
+    - "106--4000--16--Default--§l§bBUY {amount}: {price}"
+    - "32--2000--16--Default--§l§bBUY {amount}: {price}"
+    - "39--5000--16--Default--§l§bBUY {amount}: {price}"
+    - "390--2500--4--Default--§l§bBUY {amount}: {price}"
+#####################################
+
+#  XXXXX     XXXXX  XXXXXXX  XXXXX    XXX  XXXXXXXXXXb    XXXXXXXXb  XXXXXXXXXXb   XXX     XXX  oXXXXXXXXXXXb  XXX      XXX
+#  XXXXXX   XXXXXX  XXXXXXX  XXXXXX   XXX  XXXXXXXXXXX   XXXXXXXXXX  XXXXXXXXXXXX  XXX     XXX  XXXXXXXXXXXXX  XXX      XXX
+#  XXX XXX XXX XXX    XXX    XXX XXX  XXX  XXX          XXXP         XXX      XXX  XXX     XXX  XXX            XXX      XXX
+#  XXX  XXXXX  XXX    XXX    XXX  XXX XXX  XXXXXXXD     XXX          XXXXXXXXXXP   XXX     XXX  XXXXXXXXXXXXb  XXXXXXXXXXXX
+#  XXX   XXX   XXX    XXX    XXX   XXXXXX  XXX          XXXb         XXXXXXXXXX    XXX     XXX            XXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX    XXXXX  XXXXXXXXXXX   XXXXXXXXXX  XXX    YXXX   YXXXXXXXXXY  XXXXXXXXXXXXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX     YXXP  XXXXXXXXXXP    XXXXXXXXP  XXX     XXXX   XXXXXXXXP   YXXXXXXXXXXXP  XXX      XXX
+
+...

@@ -1,0 +1,81 @@
+---
+# Setting ShopGUI Blocks Shop
+#####################################
+# TITLE CHEST SHOP
+Title: "§lBlocks Shop"
+# IMAGE FORMS
+# Leave it blank (example: ""), if you don't want to use Image
+Image: "textures/blocks/cobblestone"
+# This is the type of chest that will be used for the chest shop later
+# There are 2 types that can be used, namely: "single" and "double"
+TypeShop: "double"
+
+# For example if you want to add a page!
+# Shops:
+#   (page) list
+#     (slot) "id:meta--price--amount--costum name--lore"
+#   
+#   - list:
+#        !(You can one select type data exemple in below)!
+#     - "id:meta--price--amount--costum name--lore"
+#     - "1--1000--32--Good Stone--Buy {amount} = Price {price} Blablabla"
+#     - "1:1--1000--32--Good Andesite--Buy {amount} = Price {price} Blablabla"
+#     - "diamond_sword--5000--1--Good Sword--Buy {amount} = Price {price} Blablabla"
+#
+# {amount}  = Number of items to be purchased
+# {price}  = Price of items to be purchased
+Shops:
+  - list:
+    - "2--3200--32--Default--§l§bBUY {amount}: {price}"
+    - "3--1000--32--Default--§l§bBUY {amount}: {price}"
+    - "3:1--1000--32--Default--§l§bBUY {amount}: {price}"
+    - "243--4500--32--Default--§l§bBUY {amount}: {price}"
+    - "110--3450--32--Default--§l§bBUY {amount}: {price}"
+    - "12--1500--32--Default--§l§bBUY {amount}: {price}"
+    - "12:1--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "13--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "82--4500--32--Default--§l§bBUY {amount}: {price}"
+    - "48--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "98--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "98:1--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "98:2--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "98:3--3200--32--Default--§l§bBUY {amount}: {price}"
+    - "168:2--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "45--3250--32--Default--§l§bBUY {amount}: {price}"
+    - "1:5--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "1:3--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "1:1--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "1:6--4000--32--Default--§l§bBUY {amount}: {price}"
+    - "1:4--4000--32--Default--§l§bBUY {amount}: {price}"
+    - "1:2--4000--32--Default--§l§bBUY {amount}: {price}"
+    - "168--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "168:1--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "206--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "24--3250--32--Default--§l§bBUY {amount}: {price}"
+    - "24:1--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "24:2--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "179--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "179:1--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "179:2--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "155--2750--32--Default--§l§bBUY {amount}: {price}"
+    - "155:1--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "155:2--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "213--25000--32--Default--§l§bBUY {amount}: {price}"
+    - "88--25000--32--Default--§l§bBUY {amount}: {price}"
+    - "87--25000--32--Default--§l§bBUY {amount}: {price}"
+    - "112--3000--32--Default--§l§bBUY {amount}: {price}"
+    - "215--3500--32--Default--§l§bBUY {amount}: {price}"
+    - "214--2500--32--Default--§l§bBUY {amount}: {price}"
+    - "121--5000--32--Default--§l§bBUY {amount}: {price}"
+    - "201--5500--32--Default--§l§bBUY {amount}: {price}"
+    - "201:2--3500--32--Default--§l§bBUY {amount}: {price}"
+#####################################
+
+#  XXXXX     XXXXX  XXXXXXX  XXXXX    XXX  XXXXXXXXXXb    XXXXXXXXb  XXXXXXXXXXb   XXX     XXX  oXXXXXXXXXXXb  XXX      XXX
+#  XXXXXX   XXXXXX  XXXXXXX  XXXXXX   XXX  XXXXXXXXXXX   XXXXXXXXXX  XXXXXXXXXXXX  XXX     XXX  XXXXXXXXXXXXX  XXX      XXX
+#  XXX XXX XXX XXX    XXX    XXX XXX  XXX  XXX          XXXP         XXX      XXX  XXX     XXX  XXX            XXX      XXX
+#  XXX  XXXXX  XXX    XXX    XXX  XXX XXX  XXXXXXXD     XXX          XXXXXXXXXXP   XXX     XXX  XXXXXXXXXXXXb  XXXXXXXXXXXX
+#  XXX   XXX   XXX    XXX    XXX   XXXXXX  XXX          XXXb         XXXXXXXXXX    XXX     XXX            XXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX    XXXXX  XXXXXXXXXXX   XXXXXXXXXX  XXX    YXXX   YXXXXXXXXXY  XXXXXXXXXXXXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX     YXXP  XXXXXXXXXXP    XXXXXXXXP  XXX     XXXX   XXXXXXXXP   YXXXXXXXXXXXP  XXX      XXX
+...

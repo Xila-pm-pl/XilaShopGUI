@@ -1,0 +1,59 @@
+---
+# Setting ShopGUI Color Shop
+#####################################
+# TITLE CHEST SHOP
+Title: "§lWoods Shop"
+# IMAGE FORMS
+# Leave it blank (example: ""), if you don't want to use Image
+Image: "textures/blocks/log_big_oak"
+# This is the type of chest that will be used for the chest shop later
+# There are 2 types that can be used, namely: "single" and "double"
+TypeShop: "single"
+
+# For example if you want to add a page!
+# Shops:
+#   (page) list
+#     (slot) "id:meta--price--amount--costum name--lore"
+#   
+#   - list:
+#        !(You can one select type data exemple in below)!
+#     - "id:meta--price--amount--costum name--lore"
+#     - "1--1000--32--Good Stone--Buy {amount} = Price {price} Blablabla"
+#     - "1:1--1000--32--Good Andesite--Buy {amount} = Price {price} Blablabla"
+#     - "diamond_sword--5000--1--Good Sword--Buy {amount} = Price {price} Blablabla"
+#
+# {amount}  = Number of items to be purchased
+# {price}  = Price of items to be purchased
+Shops:
+  - list:
+      - "17:0--3000--32--Default--§l§bBUY {amount}: {price}"
+      - "17:1--3000--32--Default--§l§bBUY {amount}: {price}"
+      - "17:2--3000--32--Default--§l§bBUY {amount}: {price}"
+      - "162:0--3000--32--Default--§l§bBUY {amount}: {price}"
+      - "17:3--3000--32--Default--§l§bBUY {amount}: {price}"
+      - "162:1--3000--32--Default--§l§bBUY {amount}: {price}"
+  - list:
+      - "5:0--3200--32--Default--§l§bBUY {amount}: {price}"
+      - "5:1--3200--32--Default--§l§bBUY {amount}: {price}"
+      - "5:2--3200--32--Default--§l§bBUY {amount}: {price}"
+      - "5:3--3200--32--Default--§l§bBUY {amount}: {price}"
+      - "5:4--3200--32--Default--§l§bBUY {amount}: {price}"
+      - "5:5--3200--32--Default--§l§bBUY {amount}: {price}"
+  - list:
+      - "18:0--2800--32--Default--§l§bBUY {amount}: {price}"
+      - "18:1--2800--32--Default--§l§bBUY {amount}: {price}"
+      - "18:2--2800--32--Default--§l§bBUY {amount}: {price}"
+      - "161:0--2800--32--Default--§l§bBUY {amount}: {price}"
+      - "18:3--2800--32--Default--§l§bBUY {amount}: {price}"
+      - "161:1--2800--32--Default--§l§bBUY {amount}: {price}"
+#####################################
+
+#  XXXXX     XXXXX  XXXXXXX  XXXXX    XXX  XXXXXXXXXXb    XXXXXXXXb  XXXXXXXXXXb   XXX     XXX  oXXXXXXXXXXXb  XXX      XXX
+#  XXXXXX   XXXXXX  XXXXXXX  XXXXXX   XXX  XXXXXXXXXXX   XXXXXXXXXX  XXXXXXXXXXXX  XXX     XXX  XXXXXXXXXXXXX  XXX      XXX
+#  XXX XXX XXX XXX    XXX    XXX XXX  XXX  XXX          XXXP         XXX      XXX  XXX     XXX  XXX            XXX      XXX
+#  XXX  XXXXX  XXX    XXX    XXX  XXX XXX  XXXXXXXD     XXX          XXXXXXXXXXP   XXX     XXX  XXXXXXXXXXXXb  XXXXXXXXXXXX
+#  XXX   XXX   XXX    XXX    XXX   XXXXXX  XXX          XXXb         XXXXXXXXXX    XXX     XXX            XXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX    XXXXX  XXXXXXXXXXX   XXXXXXXXXX  XXX    YXXX   YXXXXXXXXXY  XXXXXXXXXXXXX  XXX      XXX
+#  XXX         XXX  XXXXXXX  XXX     YXXP  XXXXXXXXXXP    XXXXXXXXP  XXX     XXXX   XXXXXXXXP   YXXXXXXXXXXXP  XXX      XXX
+
+...
