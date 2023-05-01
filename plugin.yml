@@ -1,1 +1,18 @@
 
+---
+
+name: ShopGUI
+
+version: 1.0.0
+
+main: shopgui\plugins\Loader
+
+api: 4.0.0
+
+
+
+author: XilaPMPL
+
+description: This is plugin Economy Shop with GUI, the plugin in Server Minecraft Pocket Edition -=Poketimine-MP=-
+
+...
