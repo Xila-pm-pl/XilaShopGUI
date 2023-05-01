@@ -1,0 +1,85 @@
+---
+
+# Setting Config ShopGUI  #
+
+###########################
+
+# Edit Access Commands
+
+Command:
+
+  name: "shop"
+
+  desc: "§6XShopGUI§r | Open shop to buy items."
+
+  alias: ["pixel"]
+
+# Enabling Economy for buy item
+
+Economy: true
+
+# Enabling List Shop with FormUI
+
+FormUI: true
+
+# Load Shops
+
+# Default Shops: "armors", "blocks", "colors", "farms", "foods", "furnitures", "glass", "ices", "ores", "plants", "tools", "woods"
+
+LoadShops: 
+
+  - "armors"
+
+  - "blocks"
+
+  - "colors"
+
+  - "farms"
+
+  - "foods"
+
+  - "furnitures"
+
+  - "glass"
+
+  - "ices"
+
+  - "ores"
+
+  - "plants"
+
+  - "tools"
+
+  - "woods"
+
+# Config Message
+
+# {item_name}  = Name Item
+
+# {amount}     = Amount Item
+
+# {total_price}   = Total price all item in trolly
+
+# {total_item}   = Amount Item in trolly
+
+Message:
+
+  prefix: "§l§o§6XShopGUI §r§l§b»§r" # if you don't want to use prefix, you can leave it blank (example: "")
+
+  use_in_game: "§4Command used only in-game"
+
+  title_trolly: "§l§4Trolly"
+
+  add_trolly: "{prefix} §aYou have successfully add item §f{item_name} x{amount} §ain trolly."
+
+  trolly_full: "{prefix} §cYour trolly is full."
+
+  buy_success: "{prefix} §aPacket success add your inventory.\n§aYou buy {total_item} items and total price {total_price}"
+
+  buy_not_money: "{prefix} §c§oYou don't have money to buy this item!"
+
+  nothing_items: "{prefix} §cNot have items for buy!"
+
+  nothave_shops: "{prefix} §cNot have data shops in config!"
+
+...
