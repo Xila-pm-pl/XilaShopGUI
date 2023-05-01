@@ -1,0 +1,83 @@
+---
+
+# Setting ShopGUI Armor Shop
+
+#####################################
+
+# TITLE CHEST SHOP
+
+Title: "§lArmor Shop"
+
+# IMAGE FORMS
+
+# Leave it blank (example: ""), if you don't want to use Image
+
+Image: "textures/items/diamond_chestplate"
+
+# This is the type of chest that will be used for the chest shop later
+
+# There are 2 types that can be used, namely: "single" and "double"
+
+TypeShop: "single"
+
+# For example if you want to add a page!
+
+# Shops:
+
+#   (page) list
+
+#     (slot) "id:meta--price--amount--costum name--lore"
+
+#   
+
+#   - list:
+
+#        !(You can one select type data exemple in below)!
+
+#     - "id:meta--price--amount--costum name--lore"
+
+#     - "1--1000--32--Good Stone--Buy {amount} = Price {price} Blablabla"
+
+#     - "1:1--1000--32--Good Andesite--Buy {amount} = Price {price} Blablabla"
+
+#     - "diamond_sword--5000--1--Good Sword--Buy {amount} = Price {price} Blablabla"
+
+#
+
+# NOTE: If you want to used name item with Vanilla Name, you can used format "Default".
+
+#
+
+# {amount}  = Number of items to be purchased
+
+# {price}  = Price of items to be purchased
+
+Shops:
+
+  - list:
+
+    - "chain_helmet--11500--1--Default--§l§bBUY {amount}: {price}"
+
+    - "chain_chestplate--25000--1--Default--§l§bBUY {amount}: {price}"
+
+    - "chain_leggings--15000--1--Default--§l§bBUY {amount}: {price}"
+
+    - "chain_boots--10000--1--Default--§l§bBUY {amount}: {price}"
+
+#####################################
+
+#  XXXXX     XXXXX  XXXXXXX  XXXXX    XXX  XXXXXXXXXXb    XXXXXXXXb  XXXXXXXXXXb   XXX     XXX  oXXXXXXXXXXXb  XXX      XXX
+
+#  XXXXXX   XXXXXX  XXXXXXX  XXXXXX   XXX  XXXXXXXXXXX   XXXXXXXXXX  XXXXXXXXXXXX  XXX     XXX  XXXXXXXXXXXXX  XXX      XXX
+
+#  XXX XXX XXX XXX    XXX    XXX XXX  XXX  XXX          XXXP         XXX      XXX  XXX     XXX  XXX            XXX      XXX
+
+#  XXX  XXXXX  XXX    XXX    XXX  XXX XXX  XXXXXXXD     XXX          XXXXXXXXXXP   XXX     XXX  XXXXXXXXXXXXb  XXXXXXXXXXXX
+
+#  XXX   XXX   XXX    XXX    XXX   XXXXXX  XXX          XXXb         XXXXXXXXXX    XXX     XXX            XXX  XXX      XXX
+
+#  XXX         XXX  XXXXXXX  XXX    XXXXX  XXXXXXXXXXX   XXXXXXXXXX  XXX    YXXX   YXXXXXXXXXY  XXXXXXXXXXXXX  XXX      XXX
+
+#  XXX         XXX  XXXXXXX  XXX     YXXP  XXXXXXXXXXP    XXXXXXXXP  XXX     XXXX   XXXXXXXXP   YXXXXXXXXXXXP  XXX      XXX
+
+...
