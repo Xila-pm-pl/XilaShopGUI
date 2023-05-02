@@ -5,4 +5,15 @@ branches:
 projects:
   XilaShopGUI:
     path: ""
+    libs:
+      - src: muqsit/invmenu/InvMenu
+        version: ^4.5.1
+        branch: "4.0"
+      
+      - src: muqsit/simplepackethandler/SimplePacketHandler
+        version: ^0.1.2
+        branch: "master"
+
+    lint: 
+     phpstan: false 
 ...
