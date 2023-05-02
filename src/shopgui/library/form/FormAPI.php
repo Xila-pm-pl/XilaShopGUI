@@ -8,7 +8,7 @@ use pocketmine\form\Form as IForm;
 
 use pocketmine\player\Player;
 
-abstract class FormApi implements IForm{
+abstract class FormAPI implements IForm{
 
     /** @var array */
 
